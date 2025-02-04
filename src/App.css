@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Londrina+Sketch&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+ .active{
+    @apply text-orange-500 underline underline-offset-4
+ }
+ .pagination{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   list-style-type: none;
+   margin: 10;
+   padding: 0;
+ }
+ .pagination li{
+  margin: 0 5px;  
+ }
+ .pagination a{
+  display: inline-block;
+  padding: 5px 10px;
+  border:  1px solid #ccc;
+  text-decoration: none;
+  color: #000;
+ }
+ .pagination a:hover{
+  background-color: #eee;
+ }
+ .pagination li.activePagination{
+  background-color: rgb(255, 106, 0 );
+  border-radius: 4px;
+  color: #fff;
+ }
+ .active-button{
+  color: #fc3c1a;
+  
+ }
