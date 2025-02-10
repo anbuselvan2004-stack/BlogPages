@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import{FaArrowRight } from "react-icons/fa6";
 const Banner = () => {
   return (
-    <div className='px-4 py-32 bg-black mx-auto'>
+    <div className='px-4 py-32 bg-gray-500 mx-auto'>
       <div className='text-white text-center'>
         <h1 className='text-5xl lg:text-7xl leading-snug font-bold md-5'>Welcome to our Blog</h1>
         <p className='text-gray-100 lg:w-3/5 mx-auto m-6 font-primary '> Start your blog today and join a community of writers and
